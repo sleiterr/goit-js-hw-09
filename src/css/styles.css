@@ -24,7 +24,6 @@
   -webkit-text-size-adjust: 100%;
 }
 
-
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -45,3 +44,46 @@
   width: 100%;
   height: auto;
 }
+
+/* form */
+
+  .feedback-form {
+    width: 408px;
+    height: 296px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+
+  .feedback-form label {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .feedback-form input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+
+  .feedback-form textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+
+  .feedback-form button[type="submit"] {
+    width: 95px;
+    height: 40px;
+    padding: 10px;
+    background-color: #4E75FF;
+;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
